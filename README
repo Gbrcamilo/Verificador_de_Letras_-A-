@@ -1,0 +1,63 @@
+Verificador de Letras 'A'
+Este projeto é um programa simples em Ruby que verifica a existência da letra 'a' (tanto maiúscula quanto minúscula) em uma string fornecida pelo usuário e conta quantas vezes ela aparece.
+
+Como funciona
+O programa solicita que o usuário insira uma string e, em seguida, verifica e informa quantas vezes a letra 'a' aparece na string, considerando tanto letras maiúsculas ('A') quanto minúsculas ('a').
+
+Exemplo de Execução
+less
+Copiar código
+Informe uma string: Abra a porta
+A letra 'a' aparece 3 vezes.
+Requisitos
+Ruby precisa estar instalado no seu sistema. Para verificar se o Ruby está instalado, execute o seguinte comando no terminal:
+
+bash
+Copiar código
+ruby -v
+Caso o Ruby não esteja instalado, siga as instruções de instalação em: https://www.ruby-lang.org/en/documentation/installation/
+
+Como Executar o Programa
+Clone este repositório ou faça o download do arquivo letter_check.rb no seu sistema.
+
+Navegue até o diretório onde o arquivo letter_check.rb está localizado.
+
+Execute o programa com o seguinte comando no terminal:
+
+bash
+Copiar código
+ruby letter_check.rb
+O programa solicitará que você insira uma string. Digite a string e pressione Enter.
+
+O programa informará quantas vezes a letra 'a' (ou 'A') aparece na string fornecida.
+
+Estrutura do Código
+check_letter_a(string): Função que recebe uma string como parâmetro, conta quantas vezes a letra 'a' aparece (maiúscula ou minúscula), e exibe uma mensagem com a quantidade ou informa que não há ocorrências.
+Como Contribuir
+Faça um fork deste repositório.
+
+Crie uma nova branch para suas mudanças:
+
+bash
+Copiar código
+git checkout -b minha-nova-branch
+Adicione suas mudanças:
+
+bash
+Copiar código
+git add .
+Faça um commit:
+
+bash
+Copiar código
+git commit -m "Descreva suas alterações aqui"
+Envie suas mudanças:
+
+bash
+Copiar código
+git push origin minha-nova-branch
+Abra um pull request.
+
+Licença
+Este projeto está licenciado sob os termos da MIT License.
+
